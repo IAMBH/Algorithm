@@ -11,6 +11,7 @@ for i in range(1, num+1):
     # 뒷자리 숫자와의 차를 리스트에 저장, set으로 중복제거하여 0 (일의 자리수) or 1 (십의 자리수 또는 등차수열) 개수 증가
     arithmetic = set([ temp[n]-temp[n+1] for n in range(len(temp)-1)])
     if len(arithmetic)==0 or len(arithmetic)==1:
+    # if not arithmetic or len(arithmetic)==1 도 가능
         cnt+=1
 
 print(cnt)
