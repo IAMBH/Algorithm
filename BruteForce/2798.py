@@ -13,4 +13,4 @@ for x in range(len(num_li)-2):
                 max_li.append(s)
 
 print(max(max_li))
-        
+            
