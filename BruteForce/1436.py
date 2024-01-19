@@ -9,7 +9,6 @@ while True:
         cnt += 1
     if cnt == n:
         break
-
     num+=1
 
 print(num)
